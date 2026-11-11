@@ -95,7 +95,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5.0.0
       # Keep cibuildwheel version in sync with above
-      - uses: pypa/cibuildwheel@v3.3.0
+      - uses: pypa/cibuildwheel@v4.3.5
         with:
           only: ${{ matrix.only }}
 
